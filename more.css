@@ -66,7 +66,7 @@ svg {
   --c: #917fb3;
 }
 
-.love > span {
+.love > label > span {
   display: block;
   width: 24px;
   height: 24px;
@@ -90,7 +90,7 @@ svg {
   animation: drawHeart 1s linear forwards;
 }
 
-#checkbox:checked ~ .love > span {
+#checkbox:checked ~ span {
   /*애니메이션실행: 애니메이션이름, 실행시간, 선형 마지막 정지한 프레임*/
   animation: blink 0.5s ease-in-out forwards;
   /*애니메이션 딜레이*/
